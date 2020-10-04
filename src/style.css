@@ -1,5 +1,6 @@
 body {
   min-height: 790px;
+  max-width: 600px;
   margin: 0 auto;
   background-color: #FEEBDF;
   color: #4D4848;
