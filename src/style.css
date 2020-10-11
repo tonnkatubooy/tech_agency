@@ -47,8 +47,9 @@ header {
     margin-top: 30px;
 }
 .topText img {
-  max-width: 100%;
+  max-width: 86%;
   margin: 0 auto;
+  border-style: none;
 }
 .topText p {
   font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
@@ -69,13 +70,25 @@ header {
   height: 4px;
   background-color: #fff;
   border-radius: 2px;
-  position: relative;
+  position: absolute;
+  width: 78%;
+  margin: 12px 65px;
+}
+.bar-text {
+  position: absolute;
+  top: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.prev {
+  padding-right: 254px;
 }
 .msg{
   letter-spacing: .05em;
   position: absolute;
   left: 50%;
-  bottom: 11px;
+  bottom: 16px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
