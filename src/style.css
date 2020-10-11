@@ -33,7 +33,52 @@ header {
   width: 100%;
   height: auto;
 }
-
+.topText{
+  font-size: 14px;
+    padding: 15px 0 4px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .05em;
+    position: relative;
+    top: -20px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-style: none;
+    margin-top: 30px;
+}
+.topText img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.topText p {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
+  max-width: 600px;
+}
+.center{
+  height: 55px;
+  background-color: #DE5E00;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  padding-top: 0;
+}
+.bar {
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+.msg{
+  letter-spacing: .05em;
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 h1 {
   font-weight: 100;
